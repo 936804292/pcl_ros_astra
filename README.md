@@ -8,9 +8,12 @@
 3.~/catkin_ws/$ catkin_make
 
 4.<option> 环境配置好可跳过
- a.source ~/catkin_ws/devel/setup.bash
- b.source ~/.bashrc
- c.export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/catkin_ws/src
+ 
+ source ~/catkin_ws/devel/setup.bash
+ 
+ source ~/.bashrc
+ 
+ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/catkin_ws/src
   
 5.roslaunch astra_launch astra.launch
   查看rostopic list 是否包含/camera/depth/points话题
